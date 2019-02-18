@@ -17,17 +17,17 @@ const routing = (
     <div>
       <ul>
         <li>
-          <NavLink exact actvieClassName="active" to="/">
+          <NavLink exact activeClassName="active" to="/">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink actvieClassName="active" to="/users">
+          <NavLink activeClassName="active" to="/users">
             Users
           </NavLink>
         </li>
         <li>
-          <NavLink actvieClassName="active" to="/contact">
+          <NavLink activeClassName="active" to="/contact">
             Contact
           </NavLink>
         </li>

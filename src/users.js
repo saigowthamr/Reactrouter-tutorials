@@ -5,7 +5,6 @@ const User = ({ match }) => <p>{match.params.id}</p>;
 
 class Users extends React.Component {
     render() {
-      const {url } = this.props.match
     return (
         <div>
             <h1>Users</h1>
